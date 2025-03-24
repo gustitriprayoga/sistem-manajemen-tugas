@@ -117,6 +117,7 @@
                         </div>
                     </div>
                 </div>
+                @include('sweetalert::alert')
 
                 <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
                     <div class="text-center text-sm sm:text-left">
