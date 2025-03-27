@@ -23,12 +23,12 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="./main/index.html" class="sidebar-link">
+                            <a href="#" class="sidebar-link">
                                 <i class="ti ti-aperture"></i>
-                                <span class="hide-menu">Modern</span>
+                                <span class="hide-menu">Dashboard</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="./main/index2.html" class="sidebar-link">
                                 <i class="ti ti-shopping-cart"></i>
                                 <span class="hide-menu">eCommerce</span>
@@ -57,7 +57,7 @@
                                 <i class="ti ti-playlist"></i>
                                 <span class="hide-menu">Music</span>
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
                 <!-- ============================= -->

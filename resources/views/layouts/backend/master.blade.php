@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Modernize Bootstrap Admin</title>
+    <title>{{ $settings->name }} | @yield('title')</title>
 
     <!-- Favicon icon-->
     <link rel="shortcut icon" type="image/png" href="{{ 'backend/dist/assets/images/logos/favicon.png' }}" />

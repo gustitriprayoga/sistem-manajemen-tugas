@@ -2,7 +2,7 @@ var at = document.documentElement.getAttribute("data-layout");
 if ((at = "vertical")) {
 
   // ----------------------------------------
-  // Active 2 file at same time 
+  // Active 2 file at same time
   // ----------------------------------------
 
   var currentNewURL =
