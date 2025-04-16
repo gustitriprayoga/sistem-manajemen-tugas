@@ -21,7 +21,12 @@ class SettingServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        View::composer(['layouts.backend.sidebar','layouts.backend.master'], function ($view) {
+        View::composer(['layouts.backend.sidebar'], function ($view) {
+            $settings = Setting::where('id', 1)->first(); // Query data settings
+            $view->with('settings', $settings); // Kirim data ke view
+        });
+
+        View::composer(['layouts.backend.master'], function ($view) {
             $settings = Setting::where('id', 1)->first(); // Query data settings
             $view->with('settings', $settings); // Kirim data ke view
         });
