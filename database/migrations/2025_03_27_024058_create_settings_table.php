@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('logo')->default('N/A');
             // $table->string('favicon')->nullable();
-            $table->string('name')->default('N/A');
+            $table->string('name')->default('Nama Sistem');
             $table->timestamps();
         });
     }
